@@ -1,0 +1,16 @@
+{
+    "protocol": "sftp",
+    "host": "e3d2020dev.sftp.wpengine.com",
+    "port": 2222,
+    "user": "e3d2020dev-paularntz",
+    "pass": "WPdaGnd15!",
+    "promptForPass": false,
+    "remote": "/",
+    "ignorehost": true,
+    "connTimeout": 10000,
+    "keepalive": 10000,
+    "keyboardInteractive": false,
+    "keyboardInteractiveForPass": false,
+    "watch":[],
+    "watchTimeout":500
+}

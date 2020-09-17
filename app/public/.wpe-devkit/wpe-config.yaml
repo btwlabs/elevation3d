@@ -1,0 +1,5 @@
+email: elv3dtplvedev
+ssh_key: /home/ubuntu/.config/Local/ssh/wpe-connect
+update_check: false
+analytics: false
+alpha_commands_access: true

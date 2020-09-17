@@ -1,0 +1,95 @@
+#####################
+# Ignore everything #
+#####################
+**
+!wp-content/
+wp-content/**
+!wp-content/themes/
+!wp-content/plugins/
+!wp-content/wp-file-download/
+wp-content/themes/**
+wp-content/plugins/**
+wp-content/wp-file-download/**
+
+##################
+# Start editing! #
+##################
+
+## Themes
+# genesis_elv3d
+!wp-content/themes/genesis-elv3d/
+!wp-content/themes/genesis-elv3d/**
+
+## Plugins
+# elv3d_wp_helper
+!wp-content/plugins/elv3d_wp_helper/
+!wp-content/plugins/elv3d_wp_helper/**
+!wp-content/plugins/elv3d_wp_conference/
+!wp-content/plugins/elv3d_wp_conference/**
+
+## Scripts
+!scripts
+!scripts/**
+
+## Virtual Event
+!virtualevent
+!virtualevent/**
+
+## WPFile Download
+!wp-content/wp-file-download/themes/
+!wp-content/wp-file-download/themes/**
+!wp-content/wp-file-download/themes/wpfd-elv3/
+!wp-content/wp-file-download/themes/wpfd-elv3/**
+
+## vendors
+!vendor
+!vendor/**
+
+## static
+!static
+!static/**
+
+#################
+# Stop editing! #
+#################
+
+
+############################################
+# Ignore some other system generated files #
+############################################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.log
+*.sql
+*.sqlite
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.codekit-cache
+.sass-cache
+# Sublime
+*.sublime-project
+*.sublime-workspace
+# PhpStorm
+.idea/
+
+########################
+# Always include these #
+########################
+!*.md
+!.gitignore
+!composer.json

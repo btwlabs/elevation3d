@@ -1,0 +1,48 @@
+[16-Sep-2020 13:03:24 UTC] PHP Warning:  require_once(/Users/macbook/Local Sites/elevation3d/app/public//vendor/autoload.php): failed to open stream: No such file or directory in /Users/macbook/Local Sites/elevation3d/app/public/wp-content/plugins/elv3d_wp_conference/elv3d_wp_conference.php on line 13
+[16-Sep-2020 13:03:24 UTC] PHP Stack trace:
+[16-Sep-2020 13:03:24 UTC] PHP   1. {main}() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/index.php:0
+[16-Sep-2020 13:03:24 UTC] PHP   2. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/index.php:10
+[16-Sep-2020 13:03:24 UTC] PHP   3. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/admin.php:34
+[16-Sep-2020 13:03:24 UTC] PHP   4. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-load.php:37
+[16-Sep-2020 13:03:24 UTC] PHP   5. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-config.php:77
+[16-Sep-2020 13:03:24 UTC] PHP   6. include_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-settings.php:371
+[16-Sep-2020 13:03:24 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/macbook/Local Sites/elevation3d/app/public//vendor/autoload.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/macbook/Local Sites/elevation3d/app/public/wp-content/plugins/elv3d_wp_conference/elv3d_wp_conference.php on line 13
+[16-Sep-2020 13:03:24 UTC] PHP Stack trace:
+[16-Sep-2020 13:03:24 UTC] PHP   1. {main}() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/index.php:0
+[16-Sep-2020 13:03:24 UTC] PHP   2. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/index.php:10
+[16-Sep-2020 13:03:24 UTC] PHP   3. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/admin.php:34
+[16-Sep-2020 13:03:24 UTC] PHP   4. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-load.php:37
+[16-Sep-2020 13:03:24 UTC] PHP   5. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-config.php:77
+[16-Sep-2020 13:03:24 UTC] PHP   6. include_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-settings.php:371
+[16-Sep-2020 13:04:40 UTC] PHP Warning:  require_once(/Users/macbook/Local Sites/elevation3d/app/public//vendor/autoload.php): failed to open stream: No such file or directory in /Users/macbook/Local Sites/elevation3d/app/public/wp-content/plugins/elv3d_wp_conference/elv3d_wp_conference.php on line 13
+[16-Sep-2020 13:04:40 UTC] PHP Stack trace:
+[16-Sep-2020 13:04:40 UTC] PHP   1. {main}() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/index.php:0
+[16-Sep-2020 13:04:40 UTC] PHP   2. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/index.php:10
+[16-Sep-2020 13:04:40 UTC] PHP   3. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/admin.php:34
+[16-Sep-2020 13:04:40 UTC] PHP   4. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-load.php:37
+[16-Sep-2020 13:04:40 UTC] PHP   5. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-config.php:77
+[16-Sep-2020 13:04:40 UTC] PHP   6. include_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-settings.php:371
+[16-Sep-2020 13:04:40 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/macbook/Local Sites/elevation3d/app/public//vendor/autoload.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/macbook/Local Sites/elevation3d/app/public/wp-content/plugins/elv3d_wp_conference/elv3d_wp_conference.php on line 13
+[16-Sep-2020 13:04:40 UTC] PHP Stack trace:
+[16-Sep-2020 13:04:40 UTC] PHP   1. {main}() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/index.php:0
+[16-Sep-2020 13:04:40 UTC] PHP   2. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/index.php:10
+[16-Sep-2020 13:04:40 UTC] PHP   3. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/admin.php:34
+[16-Sep-2020 13:04:40 UTC] PHP   4. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-load.php:37
+[16-Sep-2020 13:04:40 UTC] PHP   5. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-config.php:77
+[16-Sep-2020 13:04:40 UTC] PHP   6. include_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-settings.php:371
+[16-Sep-2020 13:04:42 UTC] PHP Warning:  require_once(/Users/macbook/Local Sites/elevation3d/app/public//vendor/autoload.php): failed to open stream: No such file or directory in /Users/macbook/Local Sites/elevation3d/app/public/wp-content/plugins/elv3d_wp_conference/elv3d_wp_conference.php on line 13
+[16-Sep-2020 13:04:42 UTC] PHP Stack trace:
+[16-Sep-2020 13:04:42 UTC] PHP   1. {main}() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/index.php:0
+[16-Sep-2020 13:04:42 UTC] PHP   2. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/index.php:10
+[16-Sep-2020 13:04:42 UTC] PHP   3. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/admin.php:34
+[16-Sep-2020 13:04:42 UTC] PHP   4. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-load.php:37
+[16-Sep-2020 13:04:42 UTC] PHP   5. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-config.php:77
+[16-Sep-2020 13:04:42 UTC] PHP   6. include_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-settings.php:371
+[16-Sep-2020 13:04:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/macbook/Local Sites/elevation3d/app/public//vendor/autoload.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/macbook/Local Sites/elevation3d/app/public/wp-content/plugins/elv3d_wp_conference/elv3d_wp_conference.php on line 13
+[16-Sep-2020 13:04:42 UTC] PHP Stack trace:
+[16-Sep-2020 13:04:42 UTC] PHP   1. {main}() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/index.php:0
+[16-Sep-2020 13:04:42 UTC] PHP   2. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/index.php:10
+[16-Sep-2020 13:04:42 UTC] PHP   3. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-admin/admin.php:34
+[16-Sep-2020 13:04:42 UTC] PHP   4. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-load.php:37
+[16-Sep-2020 13:04:42 UTC] PHP   5. require_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-config.php:77
+[16-Sep-2020 13:04:42 UTC] PHP   6. include_once() /Users/macbook/Local Sites/elevation3d/app/public/wp-settings.php:371
