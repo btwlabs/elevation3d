@@ -1015,7 +1015,6 @@ figcaption,
 
 .site-header {
 	background-color: #fff;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
 	padding: 0 30px;
 }
 
@@ -1919,7 +1918,6 @@ div.resp-container iframe {
 
 .library-h2 {
     font-family: Open Sans;
-    letter-spacing: auto;
     text-transform: capitalize;
     font-size: 32px;
     margin-top: 20px;
@@ -2004,4 +2002,658 @@ div.site-container .wp-block-columns.alignfull {
 .elv3d-cntr-inline {
   display:block;
   margin:auto;
+}
+
+.container-bg{
+	background-color: #F7F7F7;
+}
+.container-title {
+	color: #C2C3C4;
+	font-size: 14px;
+}
+.letter-style{
+	color:#535353
+}
+
+.content-w{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-start-prod{
+	background-color:#f7f7f7;color:#f7f7f7
+}
+
+.sub-text-color{
+	color:#003366;
+}
+
+.btn-start{
+	right: 50px;
+	position: relative;
+	bottom: 60px;
+}
+
+header.site-header{
+	background-color: #ffffff;
+	color: black;
+
+}
+.genesis-nav-menu a {
+	color: black;
+
+}
+header{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+}
+img.custom-logo {
+	padding-top: 19px;
+	position: relative;
+	right: 29px;
+}
+footer.site-footer {
+	background-color: #ee3e42;
+	padding: 20px 5%;
+}
+.top-line {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ee3e42;
+	color:#ffffff;
+	height: 45px;
+	font-size: 20px;
+}
+.top-line-text{
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+.site-container .wp-block-button a.wp-block-button__link:active {
+	background-color: #ee3e42
+	!important;
+	color: #ffffff !important;
+}
+
+.container-grey{
+	width: 80%;
+	background-color: #F7F7F7;
+	height: 190px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container-grey-content{
+	width: 50%;
+	font-size: 14px
+}
+
+.btn-btn-margin {
+	position: relative;
+	bottom: 80px;
+	right: 30px;
+	float: right;
+}
+.content-inblock{
+	width: 90%;
+	position: absolute;
+	bottom: 25px;
+	left: 12%;
+}
+ul.ul-list-content {
+	line-height: 2;
+	color: #535353;
+	font-size: 14px;
+}
+
+.is-style-default {
+	width: 70%;
+	max-width: 100% !important;
+	opacity: .4;
+}
+
+.white-arrow{
+	left: 30px;
+	position: relative;
+}
+
+a.wp-block-button__link.has-background.continue-btn {
+	width: 250px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#order_review > table {
+	display: none;
+}
+#menu-item-32797 > a:before{
+	content: '';
+	background-color: #0a0a0a;
+}
+.woocommerce {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px !important;
+
+}
+.woocommerce-info {
+	border: none !important;
+}
+
+#genesis-content > article > div > div > div > div > div.woocommerce > p.return-to-shop > a {
+	font-size: 98%;
+	width: 150px;
+	line-height: 1;
+	cursor: pointer;
+	position: relative;
+	border-radius: 3px;
+	color: #ffffff;
+	background-color: #003366;
+	border: 0;
+	display: inline-block;
+	font-weight: normal;
+	float: right;
+	margin-bottom: 20px;
+	height: 40px;
+}
+
+#genesis-content > article > div > div > div > div > div.woocommerce > div.cart-collaterals > div > div > a {
+	background-color: #003366;
+	color: #fff;
+	font-size: 13px;
+}
+
+#genesis-content > article > div > div > div > div > div.woocommerce > form > table > tbody > tr:nth-child(2) > td > div > button {
+	background-color: #003366;
+	color: #fff;
+	font-size: 13px;
+}
+
+#coupon_code{
+	width: 45% !important;
+}
+
+.woocommerce table.shop_table th {
+	font-weight: 700;
+	color: #535353;
+}
+#genesis-content > article > div > div > div > div > div.woocommerce > div > div.u-columns.woocommerce-Addresses.col2-set.addresses > div.u-column2.col-2.woocommerce-Address{
+	display: none;
+}
+
+#genesis-content > article > div > div > div > div > div.woocommerce > div > div.u-columns.woocommerce-Addresses.col2-set.addresses > div.u-column1.col-1.woocommerce-Address > address{
+	width: 250px;
+}
+
+#genesis-content > article > div > div > div > div > div.woocommerce > div > div.u-columns.woocommerce-Addresses.col2-set.addresses > div.u-column1.col-1.woocommerce-Address > header > h3{
+	color: #535353;
+}
+#genesis-content > article > div > div > div > div > div.woocommerce > div > form > h3 {
+	color: #535353;
+}
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+	width: 100%;
+	outline: 0;
+	height: 40px;
+	border-radius: 4px;
+}
+.woocommerce form .form-row label {
+	color: #535353;
+	margin-right: 20px;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+	font-size: 16px;
+	margin: 0;
+	cursor: pointer;
+	position: relative;
+	text-decoration: none;
+	overflow: visible;
+	font-weight: 500;
+	border-radius: 3px;
+	color: #fff !important;
+	background-color: #003366 !important;
+	width: 200px;
+	height: 40px;
+}
+#genesis-content > article > div > div > div > div > div.woocommerce > div > form > fieldset > legend {
+	color: #535353;
+}
+
+#genesis-content > article > div > div > div > div > div.woocommerce > nav > ul > div.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads.is-active{
+	display: none;
+}
+
+.site-container .wp-block-button a.wp-block-button__link:hover {
+	color: #fff;
+}
+
+div#wpforms-33039-field_1-container {
+	font-size: 13px;
+	margin-bottom: 5%;
+}
+
+.site-container .entry-content .wpforms-form .wpforms-field-label {
+	font-weight: normal;
+	color: #535353;
+	margin-bottom: 15px !important;
+}
+
+.quiz-one{
+	color: #535353 !important;
+}
+
+.site-container .entry-content .wpforms-form textarea {
+	padding: 15px;
+	width: 361px;
+	height: 53px !important;
+}
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+	display: inline;
+	vertical-align: baseline;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.3;
+	color: #535353 !important;
+}
+
+.submit-btn-form {
+	background-color: #003366;
+	color: #fff;
+}
+
+#wpforms-submit-33039{
+	background-color: #003366;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 15px 30px;
+	text-align: center;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#wpforms-submit-33055 {
+	background-color: #003366;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 15px 30px;
+	text-align: center;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#wpforms-submit-33075{
+	background-color: #003366;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 15px 30px;
+	text-align: center;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#wpforms-submit-33108{
+	background-color: #003366;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 15px 30px;
+	text-align: center;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+div#wpforms-33039-field_2-container {
+margin-bottom: 10% !important;
+}
+
+div#wpforms-33039-field_3-container {
+	margin-bottom: 10%;
+}
+div#wpforms {
+	margin-bottom: 10%;
+}
+div#wpforms-33055-field_1-container {
+margin-bottom: 10%;
+margin-top: 5%;
+}
+
+div#wpforms-33055-field_2-container {
+	margin-bottom: 10%;
+}
+div#wpforms-33055-field_3-container {
+	margin-bottom: 10%;
+}
+div#wpforms-33055-field_4-container {
+	margin-bottom: 10%;
+}
+div#wpforms-33055-field_5-container {
+	margin-bottom: 10%;
+}
+div#wpforms-33055-field_6-container {
+	margin-bottom: 10%;
+}
+div#wpforms-33055-field_7-container {
+	margin-bottom: 10%;
+}
+div#wpforms-33055-field_8-container {
+	margin-bottom: 5%;
+}
+
+#wpforms-33075-field_1-container{
+	margin-bottom: 10%;
+	margin-top: 5%;
+}
+#wpforms-33075-field_2-container{
+	margin-bottom: 10%;
+}
+#wpforms-33075-field_3-container{
+	margin-bottom: 10%;
+}
+#wpforms-33075-field_4-container{
+	margin-bottom: 10%;
+}
+#wpforms-33075-field_5-container{
+	margin-bottom: 10%;
+}
+#wpforms-33075-field_6-container{
+	margin-bottom: 10%;
+}
+
+#wpforms-33108-field_1-container{
+	margin-bottom: 10%;
+	margin-top: 5%;
+}
+#wpforms-33108-field_1-container:before{
+	content: '1.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+
+#wpforms-33108-field_2-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_2-container:before{
+	content: '2.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_3-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_3-container:before{
+	content: '3.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_4-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_4-container:before{
+	content: '4.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_5-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_5-container:before{
+	content: '5.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_6-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_6-container:before{
+	content: '6.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_7-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_7-container:before{
+	content: '7.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_8-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_8-container:before{
+	content: '8.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_9-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_9-container:before{
+	content: '9.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_10-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_10-container:before{
+	content: '10.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_11-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_11-container:before{
+	content: '11.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_12-container{
+	margin-bottom: 10%;
+}#wpforms-33108-field_12-container:before{
+	 content: '12.';
+	 color: #535353;
+	 float: left;
+	 position: absolute;
+	 right: 102%;
+ }
+#wpforms-33108-field_13-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_13-container:before{
+	content: '13.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_14-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_14-container:before{
+	content: '14.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_15-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_15-container:before{
+	content: '15.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_16-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_16-container:before{
+	content: '16.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_17-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_17-container:before{
+	content: '17.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_18-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_18-container:before{
+	content: '18.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_19-container{
+	margin-bottom: 10%;
+}
+#wpforms-33108-field_19-container:before{
+	content: '19.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+#wpforms-33108-field_20-container{
+	margin-bottom: 5%;
+}
+#wpforms-33108-field_20-container:before{
+	content: '20.';
+	color: #535353;
+	float: left;
+	position: absolute;
+	right: 102%;
+}
+
+.genesis-nav-menu a:focus, .genesis-nav-menu a:hover, .genesis-nav-menu .current-menu-item > a, .genesis-nav-menu .sub-menu .current-menu-item > a:focus, .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
+	color: #003366;
+	text-decoration: none;
+}
+
+#menu-main-menu:nth-child(2){
+	background-color: red;
+}
+
+#menu-item-33119 > a > span:before {
+	content: url("data:image/svg+xml,%3Csvg width='40px' height='1em' viewBox='0 0 16 16' class='bi bi-cart-fill' fill='%23003366' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z'/%3E%3C/svg%3E");
+}
+#menu-item-33122 > a > span:before {
+	content: url("data:image/svg+xml,%3Csvg width='40px' height='1em' viewBox='0 0 16 16' class='bi bi-person-circle' fill='%23003366' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z'/%3E%3Cpath fill-rule='evenodd' d='M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'/%3E%3Cpath fill-rule='evenodd' d='M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z'/%3E%3C/svg%3E");
+}
+
+#genesis-content > article > div > div:nth-child(15) > div > div {
+	display: none;
+}
+
+#customer_details > div:nth-child(1) > div{
+	color: #535353;
+	background-color: #F7F7F7;
+}
+
+.woocommerce table.shop_table {
+	border: none !important;
+	text-align: left;
+	width: 100%;
+	border-collapse: separate;
+	border-radius: 5px;
+	background-color: #F7F7F7;
+}
+
+#add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment {
+	border-radius: 5px;
+	background-color: #F7F7F7 !important;
+}
+
+#customer_details > div.col-1 {
+	max-width: 100% !important;
+}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+	float: left;
+	width: 100% !important;
+}
+
+#customer_details > div:nth-child(2) > div.woocommerce-additional-fields{
+	display: none;
+}
+
+#genesis-content > article > div > div:nth-child(3) > div.d-flex.justify-content-center > div {
+	border: none;
+	background-color: #E2E2E2;
+	color: #003366;
+	width: 238px;
+}
+
+#genesis-content > article > div > div:nth-child(3) > div > div > div > div > div > div.wp-block-buttons.aligncenter > div > a {
+	width: 250px;
+	border-radius: 5px;
+}
+
+.title-content {
+	color: #003366;
+}
+
+.description-content{
+	color: #535353;
 }

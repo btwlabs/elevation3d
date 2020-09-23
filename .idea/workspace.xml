@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43f9ca6e-a2c6-4822-884a-90e72ba99580" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/cart-errors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/form-billing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/form-checkout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/form-coupon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/form-login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/form-pay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/form-shipping.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/order-receipt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/payment-method.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/payment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/review-order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/terms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/checkout/thankyou.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/downloads.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/form-add-payment-method.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/form-edit-account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/form-edit-address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/form-login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/form-lost-password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/form-reset-password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/lost-password-confirmation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/my-account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/my-address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/my-downloads.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/my-orders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/orders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/payment-methods.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce/myaccount/view-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/php/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/php/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/php/php-fpm.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/php/php-fpm.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hhoPRymsaFD6zGYG9oY2uLAM8U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/public/wp-content/themes/genesis-elv3d/woocommerce" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43f9ca6e-a2c6-4822-884a-90e72ba99580" name="Default Changelist" comment="" />
+      <created>1600472661615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600472661615</updated>
+      <workItem from="1600472663789" duration="38613000" />
+      <workItem from="1600713552845" duration="41724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1600482552536">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600482552536" />
+    <state x="518" y="337" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600653763559">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state x="518" y="337" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.788/-1920.-157.1920.1057@0.23.1440.788" timestamp="1600653763559" />
+    <state x="826" y="110" width="614" height="556" key="find.popup" timestamp="1600803179782">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="-773" y="-42" width="586" height="735" key="find.popup/0.23.1440.788/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1600548616400" />
+    <state x="379" y="109" width="905" height="548" key="find.popup/0.23.1440.788/-1920.-157.1920.1057@0.23.1440.788" timestamp="1600646930997" />
+    <state x="-1415" y="-42" width="1354" height="736" key="find.popup/0.23.1440.795/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1600732180625" />
+    <state x="826" y="110" width="614" height="556" key="find.popup/0.23.1440.798@0.23.1440.798" timestamp="1600803179782" />
+    <state x="-773" y="-52" width="663" height="673" key="find.popup/0.23.1440.877/-1920.-157.1920.967@-1920.-157.1920.967" timestamp="1600737449699" />
+  </component>
+</project>

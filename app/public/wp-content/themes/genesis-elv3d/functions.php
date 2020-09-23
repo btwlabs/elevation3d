@@ -24,7 +24,7 @@ add_action( 'after_setup_theme', 'genesis_elv3d_localization_setup' );
  */
 function genesis_elv3d_localization_setup() {
 
-	load_child_theme_textdomain( genesis_get_theme_handle(), get_stylesheet_directory() . '/languages' );
+    load_child_theme_textdomain( genesis_get_theme_handle(), get_stylesheet_directory() . '/languages' );
 
 }
 
@@ -53,12 +53,12 @@ add_action( 'after_setup_theme', 'genesis_child_gutenberg_support' );
  * @since 2.7.0
  */
 function genesis_child_gutenberg_support() { // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedFunctionFound -- using same in all child themes to allow action to be unhooked.
-	require_once get_stylesheet_directory() . '/lib/gutenberg/init.php';
+    require_once get_stylesheet_directory() . '/lib/gutenberg/init.php';
 }
 
 // Registers the responsive menus.
 if ( function_exists( 'genesis_register_responsive_menus' ) ) {
-	genesis_register_responsive_menus( genesis_get_config( 'responsive-menus' ) );
+    genesis_register_responsive_menus( genesis_get_config( 'responsive-menus' ) );
 }
 
 add_action( 'wp_enqueue_scripts', 'genesis_elv3d_enqueue_scripts_styles' );
@@ -69,25 +69,28 @@ add_action( 'wp_enqueue_scripts', 'genesis_elv3d_enqueue_scripts_styles' );
  */
 function genesis_elv3d_enqueue_scripts_styles() {
 
-	$appearance = genesis_get_config( 'appearance' );
+    $appearance = genesis_get_config( 'appearance' );
 
-	wp_enqueue_style(
-		genesis_get_theme_handle() . '-fonts',
-		$appearance['fonts-url'],
-		[],
-		genesis_get_theme_version()
-	);
+    wp_enqueue_style(
+        genesis_get_theme_handle() . '-fonts',
+        $appearance['fonts-url'],
+        [],
+        genesis_get_theme_version()
+    );
 
-	wp_enqueue_style( 'dashicons' );
+    wp_enqueue_style( 'dashicons' );
 
-	if ( genesis_is_amp() ) {
-		wp_enqueue_style(
-			genesis_get_theme_handle() . '-amp',
-			get_stylesheet_directory_uri() . '/lib/amp/amp.css',
-			[ genesis_get_theme_handle() ],
-			genesis_get_theme_version()
-		);
-	}
+    if ( genesis_is_amp() ) {
+        wp_enqueue_style(
+            genesis_get_theme_handle() . '-amp',
+            get_stylesheet_directory_uri() . '/lib/amp/amp.css',
+            [ genesis_get_theme_handle() ],
+            genesis_get_theme_version()
+        );
+    }
+
+    wp_enqueue_style("bs_css", "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+    wp_enqueue_script("bs_js","https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js");
 
 }
 
@@ -101,11 +104,11 @@ add_action( 'after_setup_theme', 'genesis_elv3d_theme_support', 9 );
  */
 function genesis_elv3d_theme_support() {
 
-	$theme_supports = genesis_get_config( 'theme-supports' );
+    $theme_supports = genesis_get_config( 'theme-supports' );
 
-	foreach ( $theme_supports as $feature => $args ) {
-		add_theme_support( $feature, $args );
-	}
+    foreach ( $theme_supports as $feature => $args ) {
+        add_theme_support( $feature, $args );
+    }
 
 }
 
@@ -119,11 +122,11 @@ add_action( 'after_setup_theme', 'genesis_elv3d_post_type_support', 9 );
  */
 function genesis_elv3d_post_type_support() {
 
-	$post_type_supports = genesis_get_config( 'post-type-supports' );
+    $post_type_supports = genesis_get_config( 'post-type-supports' );
 
-	foreach ( $post_type_supports as $post_type => $args ) {
-		add_post_type_support( $post_type, $args );
-	}
+    foreach ( $post_type_supports as $post_type => $args ) {
+        add_post_type_support( $post_type, $args );
+    }
 
 }
 
@@ -161,11 +164,11 @@ add_filter( 'wp_nav_menu_args', 'genesis_elv3d_secondary_menu_args' );
  */
 function genesis_elv3d_secondary_menu_args( $args ) {
 
-	if ( 'secondary' === $args['theme_location'] ) {
-		$args['depth'] = 1;
-	}
+    if ( 'secondary' === $args['theme_location'] ) {
+        $args['depth'] = 1;
+    }
 
-	return $args;
+    return $args;
 
 }
 
@@ -180,7 +183,7 @@ add_filter( 'genesis_author_box_gravatar_size', 'genesis_elv3d_author_box_gravat
  */
 function genesis_elv3d_author_box_gravatar( $size ) {
 
-	return 90;
+    return 90;
 
 }
 
@@ -195,8 +198,8 @@ add_filter( 'genesis_comment_list_args', 'genesis_elv3d_comments_gravatar' );
  */
 function genesis_elv3d_comments_gravatar( $args ) {
 
-	$args['avatar_size'] = 60;
-	return $args;
+    $args['avatar_size'] = 60;
+    return $args;
 
 }
 
@@ -236,11 +239,11 @@ add_shortcode('widget','widget');
 
 add_shortcode( 'my_purchased_products', 'bbloomer_products_bought_by_curr_user' );
 function bbloomer_products_bought_by_curr_user() {
-   
+
     // GET CURR USER
     $current_user = wp_get_current_user();
     if ( 0 == $current_user->ID ) return;
-   
+
     // GET USER ORDERS (COMPLETED + PROCESSING)
     $customer_orders = get_posts( array(
         'numberposts' => -1,
@@ -249,22 +252,148 @@ function bbloomer_products_bought_by_curr_user() {
         'post_type'   => wc_get_order_types(),
         'post_status' => array_keys( wc_get_is_paid_statuses() ),
     ) );
-   
+
     // LOOP THROUGH ORDERS AND GET PRODUCT IDS
     if ( ! $customer_orders ) return;
     $product_ids = array();
+    $products = array();
     foreach ( $customer_orders as $customer_order ) {
         $order = wc_get_order( $customer_order->ID );
         $items = $order->get_items();
         foreach ( $items as $item ) {
             $product_id = $item->get_product_id();
             $product_ids[] = $product_id;
+            $product_name[] = $item['name'];
         }
     }
     $product_ids = array_unique( $product_ids );
     $product_ids_str = implode( ",", $product_ids );
-   
     // PASS PRODUCT IDS TO PRODUCTS SHORTCODE
-    return do_shortcode("[products ids='$product_ids_str']");
-   
+    return ($product_name);
 }
+
+add_shortcode( 'my-class-presenter', 'template_class' );
+function template_class() {
+    get_template_part( 'template-class-presenter' );
+}
+add_shortcode( 'my-final-result', 'template_final_exam_result' );
+function template_final_exam_result() {
+    get_template_part( 'template-final-exam-result' );
+}
+
+add_shortcode( 'courses-landingpage', 'template_courses_landing_page' );
+function template_courses_landing_page() {
+    get_template_part( 'template-courses-landing-page' );
+
+        $taxonomy = 'product_cat';
+        $orderby = 'name';
+        $show_count = 0;
+        $pad_counts = 0;
+        $hierarchical = 1;
+        $title = '';
+        $empty = 0;
+
+        $args = array(
+            'taxonomy' => $taxonomy,
+            'orderby' => $orderby,
+            'show_count' => $show_count,
+            'pad_counts' => $pad_counts,
+            'hierarchical' => $hierarchical,
+            'title_li' => $title,
+            'hide_empty' => $empty
+        );
+        $all_categories = get_categories($args);
+
+
+    foreach ($all_categories as $category) {
+        if ($category->slug !== 'uncategorized') {
+            $args = array(
+                'post_type'             => 'product',
+                'post_status'           => 'publish',
+                'ignore_sticky_posts'   => 1,
+                'posts_per_page'        => '12',
+                'tax_query'             => array(
+                    array(
+                        'taxonomy'      => 'product_cat',
+                        'field' => 'term_id', //This is optional, as it defaults to 'term_id'
+                        'terms'         => $category->term_id,
+                        'operator'      => 'IN' // Possible values are 'IN', 'NOT IN', 'AND'.
+                    ),
+                    array(
+                        'taxonomy'      => 'product_visibility',
+                        'field'         => 'slug',
+                        'terms'         => 'exclude-from-catalog', // Possibly 'exclude-from-search' too
+                        'operator'      => 'NOT IN'
+                    )
+                )
+            );
+
+            $products = new WP_Query($args);
+
+            $related_products = [];
+
+            if (!empty($products) && !empty($products->posts)) {
+                foreach ($products->posts as $product) {
+                    $related_products[] = [
+                        'name' => $product->post_title,
+                        'description' => $product->post_excerpt,
+                        'short-description' => $product->post_content,
+                        'course-id' => $product->ID
+                    ];
+                }
+            }
+
+            $products_array[] = [
+                'category_name' => $category->name,
+                'category_id' => $category->term_id,
+                'products' => $related_products,
+
+            ];
+        }
+    }
+
+    set_query_var( 'products_array', $products_array);
+    get_template_part( 'template-courses-landing-page' );
+    return ($products_array);
+
+}
+
+add_shortcode( 'courses_dashboard', 'template_course_dashboard' );
+function template_course_dashboard() {
+    // GET CURR USER
+    $current_user = wp_get_current_user();
+    if ( 0 == $current_user->ID )
+        return;
+
+    // GET USER ORDERS (COMPLETED + PROCESSING)
+    $customer_orders = get_posts( array(
+        'numberposts' => -1,
+        'meta_key'    => '_customer_user',
+        'meta_value'  => $current_user->ID,
+        'post_type'   => wc_get_order_types(),
+        'post_status' => array_keys( wc_get_is_paid_statuses() ),
+    ) );
+
+    // LOOP THROUGH ORDERS AND GET PRODUCT IDS
+    if ( ! $customer_orders ) return;
+    $product_ids = array();
+    $products = array();
+    foreach ( $customer_orders as $customer_order ) {
+        $order = wc_get_order( $customer_order->ID );
+        $items = $order->get_items();
+        foreach ( $items as $item ) {
+            $product_id = $item->get_product_id();
+            $product_ids[] = $product_id;
+            $product[] = $item['name'];
+
+        }
+    }
+    $product_ids = array_unique( $product_ids );
+    $product_ids_str = implode( ",", $product_ids );
+
+    set_query_var( 'product', $product);
+    get_template_part( 'template-courses-dashboard' );
+    return ($product);
+}
+
+

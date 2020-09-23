@@ -25,13 +25,13 @@ defined( 'ABSPATH' ) || exit;
 
 	<?php else : ?>
 
-		<h3><?php esc_html_e( 'Billing details', 'woocommerce' ); ?></h3>
+		<div class="small m-4"><?php esc_html_e( 'Billing details', 'woocommerce' ); ?></div>
 
 	<?php endif; ?>
 
 	<?php do_action( 'woocommerce_before_checkout_billing_form', $checkout ); ?>
 
-	<div class="woocommerce-billing-fields__field-wrapper">
+	<div class="woocommerce-billing-fields__field-wrapper m-4">
 		<?php
 		$fields = $checkout->get_checkout_fields( 'billing' );
 
